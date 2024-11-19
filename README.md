@@ -112,6 +112,14 @@ You are not required to only use AI you should also use your manual debugging sk
 2.
 3.
 
+## MY BACKEND DEBUGGING NOTES (add your debugging notes here)
 
+1.
+2.
+3.
+4.
+5.
+6.
+7.
 
 Good luck and may the best debuggers win!
