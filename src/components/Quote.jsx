@@ -135,4 +135,4 @@ const Quotations = () => {
   );
 };
 
-export default Quote;
+export default Quotations;
