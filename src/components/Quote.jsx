@@ -32,6 +32,7 @@ const Quotations = () => {
       setShowQuote(true);
     } catch (error) {
       console.error("Error fetching quote:", error);
+      setQuote({text: "An error occurred. Please try again.", author:""});
     } finally {
       setLoading(false);
     }
