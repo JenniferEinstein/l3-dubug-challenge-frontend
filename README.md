@@ -110,7 +110,7 @@ You are not required to only use AI you should also use your manual debugging sk
 
 ## MY FRONTEND DEBUGGING NOTES (add your debugging notes here)
 
-1.
+1.  see backend for all notes...
 2.
 3.
 
