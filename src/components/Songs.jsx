@@ -13,9 +13,13 @@ const Songs = () => {
   const fetchSongs = async () => {
     try {
       const response = await fetch(apiUrl);
+      if (!response.ok) throw new Error("Failed to fetch songs");
       const data = await response.json();
       setSongs(data);
-    } finally {
+    } catch(error) {
+      console.error("Error fetching songs:", error);
+    }
+      finally {
       setIsLoading(false);
     }
   };
